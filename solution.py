@@ -37,8 +37,9 @@ def naked_twins(values):
                 for ke in twins.keys():
                     if len(k) < len(ke) and len([box for box in list(k) if box in ke]) > 0 and len(k) == 2 :
                         for va in list(k):
-                            values[twins[ke][0]]=values[twins[ke][0]].replace(va,"")
-                            #values=assign_value(values, twins[ke][0], va)
+                            #values[twins[ke][0]]=values[twins[ke][0]].replace(va,"")
+                            assign_value(values, twins[ke][0], values[twins[ke][0]].replace(va,""))
+
 
     return values
 rows = 'ABCDEFGHI'
