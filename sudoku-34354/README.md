@@ -3,11 +3,12 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: When two boxes with same two numbers are found in a unit(square unit, row unit, coloumn unit) then they are naked twins.Since these two numbers must be in these two boxes itself for a unit, we can make sure to remove these numbers from the rest of the boxes of that particular unit.
+A: When two boxes with same two numbers are found in a unit(square unit, row unit, coloumn unit) then they are naked twins.Since these 
+two numbers must be in these two boxes itself for a unit, we can make sure to remove these numbers from the rest of the boxes of that particular unit.
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: As we apply constraints for every box , as per rules of sudoku, we make sure that no number repeats in peers list,where the digonal unit's are also included in peers list.So we iterate untill all boxes are satisfied with no repeation in peers list.
+A: As we apply constraints for every box , as per rules of sudoku, we make sure that no number repeats in peers list,where the digonal unit's are also included in peers list.So we iterate until all boxes are satisfied with no repeation in peers list.
 
 ### Install
 
